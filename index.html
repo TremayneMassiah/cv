@@ -1,69 +1,100 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Tremayne Massiah | Full-Stack Web Developer</title>
 
-  <title>Tremayne Massiah</title>
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="images/favicon.ico">
-</head>
-
-<body>
-
-<div class="bg-image">
-
-  <nav class="navbar navbar-expand-lg navbar-dark custom-nav-color">
-    <a class="navbar-brand" href="#">
-      <img class="img-size img-icon" src="images/picture1.jpg" alt="">
-    </a>
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">ABOUT</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">PORTFOLIO</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">BLOG</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">CONTACT</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+    <link rel="stylesheet" href="css/styles.css">
 
 
+  </head>
+  <body>
 
-  <main class="main-content">
-    <div class="left-content">
-      <h1>Hello, I'm <span class="name">Tremayne <span class="light-blue-text">Massiah</span></span></h1>
-    </div>
-    <div class="right-content">
-        <h2>I'm an <span class="light-blue-text">aspiring <span class="blue-text">full-stack</span></span> web developer.</h2>
-    </div>
+    <header id="homeSection">
+      <img class="logo" src="images/picture.jpg" alt="Massiah Logo">
+
+      <nav>
+        <ul>
+          <li>
+            <a href="#">HOME</a>
+          </li>
+          <li>
+            <a href="#aboutSection">ABOUT</a>
+          </li>
+          <li>
+            <a href="#">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="home-hero">
+      <h1 class="title">Hello, I'm Tremayne Massiah.
+        <span>I'm an aspiring Full-Stack Web Developer</span>
+      </h1>
+      <a class="button button-light" href="#portfolioSection">Portfolio</a>
+    </section>
+
+    <section class="about-me">
+        <h1 class="title" id="aboutSection">About Me</h1>
+        <div class="container">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud
+             exercitation ullamco laboris nisi ut
+             aliquip ex ea commodo consequat.
+             Duis aute irure dolor in reprehenderit
+             'in voluptate velit esse cillum dolore
+              eu fugiat nulla pariatur. Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa
+              qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud
+             exercitation ullamco laboris nisi ut
+             aliquip ex ea commodo consequat.
+             Duis aute irure dolor in reprehenderit
+             'in voluptate velit esse cillum dolore
+              eu fugiat nulla pariatur. Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa
+              qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+
+    </section>
+
+    <section class="portfolio" id="portfolioSection">
+      <h1 class="project-title">Portfolio <span class="secondary-project-title">Current Project</span></h1>
+      <div class="main-content">
+        <img src="images/750x500.png" alt="placeholder">
+        <h2 class="subtitle">Project Description</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua.
+           Ut enim ad minim veniam, quis nostrud
+           exercitation ullamco laboris nisi ut
+           aliquip ex ea commodo consequat.
+           Duis aute irure dolor in reprehenderit
+           'in voluptate velit esse cillum dolore
+            eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa
+            qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+      <div class="secondary-content">
+        <h1 class="secondary-content-title">Related Projects</h1>
+
+      </div>
+    </section>
 
 
-  </main>
-
-
-</div>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-</body>
-
+  </body>
 </html>
