@@ -6,19 +6,24 @@ body {
   text-align: center;
 }
 /*******TYPOGRAPHY**********/
-.title {
-  font-size: 2.5rem
+.home-hero .title {
+  font-size: 2.5rem;
+  color: #eeeeee;
 }
-.title span {
+.home-hero .title .sub {
   font-weight: 300;
   display: block;
   font-size: .9em;
 }
 
 @media (min-width: 60rem) {
-  .title {
+  .home-hero .title {
     font-size: 3.5rem;
   }
+}
+
+.name {
+  color: #00adb5;
 }
 
 /*********button*********/
@@ -40,6 +45,16 @@ body {
 .button-light:hover,
 .button-light:focus {
   background: #00adb5;
+  color: #eeeeee;
+}
+
+.button-dark {
+  color: #393e46;
+}
+
+.button-dark:hover,
+.button-dark:focus {
+  background: #222831;
   color: #eeeeee;
 }
 
@@ -67,7 +82,7 @@ nav li {
   margin: 1em;
 }
 
-nav a {
+.navlink {
   font-weight: 900;
   text-decoration: none;
   text-transform: uppercase;
@@ -104,7 +119,6 @@ nav a:hover, nav a:focus {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  color: #eeeeee;
   padding: 10em 0 16em 0;
 }
 
@@ -116,48 +130,135 @@ nav a:hover, nav a:focus {
 }
 .about-me .title {
   margin-top: 0;
-  padding-top: 2rem;
+  padding-top: 2.5rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
 }
 .about-me .container {
-  width: 50%;
+  width: 75%;
   margin: auto;
+}
+
+.about-me .container p {
+  text-align: justify;
 }
 
 .portfolio {
-  width: 75%;
+  width: 80%;
   margin: auto;
-  padding-top: 7.5rem;
-  text-align: left;
+  text-align: justify;
+  height: 45rem;
 }
 
-.portfolio img {
-  width: 65%;
-  float: left;
-}
-
-.portfolio .project-title {
-  font-size: 3rem;
+.portfolio-title {
+  text-align: center;
+  font-size: 2.5rem;
+  display: block;
   text-transform: uppercase;
-  margin: 0;
+  padding: 0;
+  margin: 25px 0;
 }
-.portfolio .project-title .secondary-project-title {
-  font-size: 1.5rem;
 
+.current-project-img {
+  max-width: 100%;
+  margin-right: 3%;
+  float: left;
+  overflow: hidden;
 }
-.portfolio p {
-  width: 30%;
-  display: inline-block;
-  margin-left: 1rem;
 
+.project-description {
+  max-width: inherit;
+  text-align: justify;
+  display: block;
 }
-.portfolio .subtitle {
-  display: inline-block;
-  margin-left: 1rem;
+
+.project-text {
+    max-width: inherit;
+    display: inline;
 }
-.secondary-content {
+
+.project-text ul {
+  max-width: 75%;
+  overflow: hidden;
+}
+
+.other-projects {
+  background-color: #eeeeee;
+  padding-bottom: 4rem;
+}
+
+.other-projects .sub-title {
+  margin: 20px;
+  padding: 3.3rem 0 1.5rem 0;
   clear: both;
+  text-transform: uppercase;
+  font-size: 2.5rem;
 }
-.secondary-content .secondary-content-title{
-padding: 2rem 0;
+
+.other-projects ul {
+  list-style: none;
+
+
+}
+
+.other-projects ul li {
+  width: 17.5%;
+  display: inline-block;
+  text-align: center;
+  margin: 0 2.5% 0 0;
+}
+.other-projects ul li:first-of-type {
+  margin-left: 2.5%;
+}
+
+.card {
+  background-color: #dfdfdf;
+  color: #222831;
+  display: inline-block;
+  width: auto;
+  text-transform: uppercase;
+}
+
+.card:hover {
+  background-color: gray;
+  color: #222831;
+}
+
+.contact-me .container{
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  height: 28rem;
+  text-transform: uppercase;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  margin: 8rem 0 2.5rem 0;
+  border-top: solid;
+  border-bottom: solid;
+  color: #222831;
+}
+.contact-button {
+  margin-top: 4rem;
+}
+
+.footer {
+  margin-top: 4rem;
+  background-color: #222831;
+  height: auto;
+}
+.footer-buttons {
+  padding-top: 2rem;
+}
+
+.footer-button {
+  margin: 0 1rem 1rem 1rem;
+  color: #eeeeee;
+  border-radius: .5rem;
+}
+
+.copyright {
+  margin: 0;
+  padding: 2rem 0;
 }
